@@ -163,8 +163,8 @@
     </build>
 	<repositories>
     <repository>
-      <id>mavenhst</id>
-      <url>http://18.208.127.193:8081/repository/mavenhst/</url>
+      <id>{NEXUS-GRP-REPO}</id>
+      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
     </repository>
   </repositories>
 </project>
